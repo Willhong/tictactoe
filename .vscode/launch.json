@@ -1,0 +1,17 @@
+//launch.json
+{
+    "version": "0.2.0",
+    "configurations": [
+        //npm start 커맨드 실행
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "npm start",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script",
+                "start"
+            ],
+        },
+    ]
+}
